@@ -20,8 +20,8 @@
             <div x-data="{ open: false }" class="rounded-lg border shadow-sm">
                 {{-- Header --}}
                 <button @click="open = !open"
-                    class="flex w-full flex-col rounded-t-lg bg-gray-50 px-4 py-3 text-left hover:bg-gray-100 sm:flex-row sm:items-center sm:justify-between dark:bg-gray-800 dark:hover:bg-gray-700">
-                    <div class="font-semibold text-gray-900 dark:text-white">
+                    class="flex w-full flex-col rounded-t-lg bg-gray-50 px-4 py-3 text-left hover:bg-gray-100 sm:flex-row sm:items-center sm:justify-between">
+                    <div class="font-semibold text-gray-900">
                         {{ $event->title }}
                     </div>
                     <div class="mt-2 flex flex-wrap items-center gap-3 text-sm sm:mt-0">
@@ -42,8 +42,8 @@
                 </button>
 
                 {{-- Content --}}
-                <div x-show="open" x-collapse class="border-t bg-white px-4 py-4 dark:bg-gray-900">
-                    <div class="prose mb-2 max-w-none text-sm text-gray-800 dark:text-gray-100">
+                <div x-show="open" x-collapse class="border-t bg-white px-4 py-4">
+                    <div class="prose mb-2 max-w-none text-sm text-gray-800">
                         {!! $event->description !!}
                     </div>
 

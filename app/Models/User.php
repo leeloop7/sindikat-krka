@@ -28,9 +28,11 @@ class User extends Authenticatable implements FilamentUser, HasAvatar, MustVerif
      */
     protected $fillable = [
         'name',
+        'surname',
         'email',
+        'phone',
         'password',
-        'avatar_url',
+        'maticna_stevilka',
     ];
 
     /**
