@@ -9,10 +9,10 @@
 
         {{-- Navigation --}}
         <nav class="hidden space-x-8 text-xs font-semibold uppercase tracking-wide text-gray-700 md:flex">
-            <a href="#o-nas" class="hover:text-green-600">O sindikatu</a>
-            <a href="#novice" class="hover:text-green-600">Novice</a>
-            <a href="{{ route('register') }}" class="text-green-800 hover:text-green-600">Postani član</a> <a
-                href="#kontakt" class="hover:text-green-600">Kontakt</a>
+            <a href="{{ route('about') }}" class="hover:text-green-600">O sindikatu</a>
+            <a href="{{ route('news.index') }}" class="hover:text-green-600">Novice</a>
+            <a href="{{ route('register') }}" class="text-green-800 hover:text-green-600">Postani član</a>
+            <a href="{{ route('contact') }}" class="hover:text-green-600">Kontakt</a>
         </nav>
 
         {{-- Icons --}}
