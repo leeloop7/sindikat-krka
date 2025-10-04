@@ -16,6 +16,7 @@
     h5,
     h6 {
         font-family: "Merriweather", serif;
+        font-weight: light;
         margin-bottom: 0.75rem;
         color: #1f2937; /* Tailwind text-gray-800 */
     }
